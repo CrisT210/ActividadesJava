@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class EjerciciosBasicos {
 	
-	public void secuencia() {
+	public void secuenciar() {
 		for(int i = 1; i <= 255; i++) {
 			System.out.println(i);
 		}
@@ -17,7 +17,7 @@ public class EjerciciosBasicos {
 		}
 	}
 	
-	public void sumaParcial() {
+	public void sumarParciales() {
 		int suma = 0;
 		for(int i = 0; i <= 255; i++) {
 			suma = suma + i;
@@ -33,7 +33,7 @@ public class EjerciciosBasicos {
 		}
 	}
 	
-	public void maximo() {
+	public void obtenerMaximo() {
 		int[] arr = {-5,-15,-10,-100,-45,-105,-30,-2};
 		int max = arr[0];
 		for(int i = 1; i < arr.length; i++) {
@@ -44,7 +44,7 @@ public class EjerciciosBasicos {
 		System.out.println("El numero maximo es: "+ max);
 	}
 	
-	public void promedio() {
+	public void promediar() {
 		int[] arr = {2, 10, 5};
 		int sum = 0;
 		int pro = 0;
@@ -77,7 +77,7 @@ public class EjerciciosBasicos {
 		System.out.println("El cantidad de valores mayores que "+ Y +" es: "+ count);
 	}
 	
-	public void valoresCuadrado() {
+	public void valoresAlCuadrado() {
 		int[] x = {1,5,10,-2};
 		int aux = 0;
 		for(int i = 0; i < x.length; i++) {

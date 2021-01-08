@@ -5,15 +5,15 @@ public class ClassMain {
 
 		EjerciciosBasicos eb = new EjerciciosBasicos();
 		
-		//eb.secuencia();
+		//eb.secuenciar();
 		//eb.impares();
-		//eb.sumaParcial();
+		//eb.sumarParciales();
 		//eb.recorrerArreglo();
-		//eb.maximo();
-		//eb.promedio();
+		//eb.obtenerMaximo();
+		//eb.promediar();
 		//eb.arrImpares();
 		//eb.mayoresQue();
-		//eb.valoresCuadrado();
+		//eb.valoresAlCuadrado();
 		//eb.eliminarNegativos();
 		//eb.minMaxPro();
 		eb.cambiarValores();
