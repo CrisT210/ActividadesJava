@@ -3,9 +3,7 @@ package com.codingdojo.mascotas.modelos;
 public class Perro extends Animal implements IMascota {
 	
 	public Perro(String pnombre, String praza, int ppeso) {
-		this.setNombre(pnombre);
-		this.setRaza(praza);
-		this.setPeso(ppeso);
+		super(pnombre, praza, ppeso);
 	}
 
 	@Override

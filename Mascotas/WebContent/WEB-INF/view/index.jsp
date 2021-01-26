@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h3>Ingresar un Perro</h3>
-	<form action="/Mascotas/ShowPerro">
+	<form action="/Mascotas/ShowPerro" method="get">
   		<label for="pname">Nombre:</label><br>
   		<input type="text" id="pname" name="pname"><br>
   		<label for="praza">Raza:</label><br>
@@ -19,7 +19,7 @@
 	</form> 
 	
 	<h3>Ingresar un Gato</h3>
-	<form action="/Mascotas/ShowGato">
+	<form action="/Mascotas/ShowGato" method="get">
   		<label for="gname">Nombre:</label><br>
   		<input type="text" id="gname" name="gname"><br>
   		<label for="graza">Raza:</label><br>
