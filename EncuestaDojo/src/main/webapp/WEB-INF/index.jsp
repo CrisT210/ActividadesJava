@@ -22,13 +22,25 @@
 					<div class="form-group row">
     					<label class="col-sm-6 col-form-label">Ubicacion Dojo:</label>
     					<div class="col-sm-6">
-      						<input type="text" class="form-control" name="ubi">
+      						<!-- <input type="text" class="form-control" name="ubi"> -->
+      						<select name="ubi" class="custom-select">
+    							<option selected></option>
+    							<c:forEach items="${ciudades}" var="ciudad">
+    							<option>${ciudad}</option>
+  								</c:forEach>
+  							</select>
     					</div>
   					</div>
 					<div class="form-group row">
     					<label class="col-sm-6 col-form-label">Lenguaje Favorito:</label>
     					<div class="col-sm-6">
-      						<input type="text" class="form-control" name="leng">
+      						<!-- <input type="text" class="form-control" name="leng"> -->
+      						<select name="leng" class="custom-select">
+    							<option selected></option>
+    							<c:forEach items="${lenguajes}" var="lenguaje">
+    							<option>${lenguaje}</option>
+  								</c:forEach>
+  							</select>
     					</div>
   					</div>
 					<div class="form-group">
