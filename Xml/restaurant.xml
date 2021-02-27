@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8">
+<food-menu>
+    <breakfastMenu>
+        <item category="preparaciones">
+            <name>Cereal</name>
+            <description>Leche con cereal</description>
+            <price>$5.99</price>
+        </item>
+            <item category="preparaciones">
+            <name>Huevos</name>
+            <description>Huevos estrellados o revueltos</description>
+            <price>$5.99</price>
+        </item>
+        <item category="bebidas">
+            <name>Te Verde</name>
+            <description>Un te verde</description>
+            <price>$0.99</price>
+        </item>
+        <item category="bebidas">
+            <name>Cafe</name>
+            <description>Un cafe</description>
+            <price>$0.99</price>
+        </item>
+    </breakfastMenu>
+    <lunchMenu>
+        <item category="entradas">
+            <name>Ensalada con Pollo</name>
+            <description>Una ensalada con pollo.</description>
+            <price>$10.99</price>
+        </item>
+        <item category="preparaciones">
+            <name>Bistec a lo Pobre</name>
+            <description>Bistec con papas fritas y cebolla</description>
+            <price>$14.99</price>
+        </item>
+        <item category="entradas">
+            <name>Sánduche de Pollo</name>
+            <description>Un sánduche de pollo. </description>
+            <price>$12.99</price>
+        </item>
+        <item category="entradas">
+            <name>Sánduche de Pastrami</name>
+            <description>Un sánduche hecho con pastrami.</description>
+            <price>$13.99</price>
+        </item>
+        <item category="bebidas">
+            <name>Coca-Cola</name>
+            <description>Una gaseosa.</description>
+            <price>$0.99</price>
+        </item>
+        <item category="bebidas">
+            <name>Jugo de Naranja</name>
+            <description>Un jugo hecho con naranjas.</description>
+            <price>$0.99</price>
+        </item>    
+    </lunchMenu>
+    <dinnerMenu>
+         <item category="preparaciones">
+            <name>Churrasco</name>
+            <description>Churrasco italiano</description>
+            <price>$10.99</price>
+        </item>
+        <item category="preparaciones">
+            <name>Completo</name>
+            <description>Un te verde</description>
+            <price>$5.99</price>
+        </item>
+        <item category="bebidas">
+            <name>Zumos de fruta</name>
+            <description>variedades de jugos</description>
+            <price>$0.99</price>
+        </item>
+        <item category="bebidas">
+            <name>Cerveza</name>
+            <description>Variedades de cerveza</description>
+            <price>$4.99</price>
+        </item>
+    </dinnermenu>
+</food-menu>
